@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Sg::Shipper" title="Shippers" module="Sg_Shipper" sortOrder="50"  resource="Serg_Ship::shipper" />
+        <add id="Sg::Shippers" title="Shippers main" module="Sg_Shipper" sortOrder="0" parent="Sg::Shipper" action="shipper/shipper" resource="Serg_Ship::shippers"/>
+    </menu>
+</config>
+
