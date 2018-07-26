@@ -10,7 +10,7 @@ class Collection extends AbstractCollection {
 
     protected function _construct() {
 
-        $this->_init(MagArsResourceTable::class,\Sg\Shipper\Model\ResourceModel\Shipper::class);
+        $this->_init(\Sg\Shipper\Model\Shipper::class,\Sg\Shipper\Model\ResourceModel\Shipper::class);
 
     }
 

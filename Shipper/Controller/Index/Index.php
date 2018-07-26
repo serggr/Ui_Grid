@@ -18,9 +18,6 @@ class Index extends \Magento\Framework\App\Action\Action
         $contact = $this->_objectManager->create('Sg\Shipper\Model\Shipper');
         $contact->setName('Anders Grin');
         $contact->setDiscription('Very fast shipeer');
-        $contact->save();
-
-
-        die('test');
+        $contact->save();        
     }
 }
